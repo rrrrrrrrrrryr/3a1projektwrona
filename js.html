@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #clickit{
+            position: absolute;
+            transition: 0.5s;
+        };
+    </style>
+</head>
+<body>
+
+    <div id="div-id-1">Tekst strony</div>
+    
+    <p id="demo"></p>
+    <button class = "button" id = "clickit">gołe baby</button>
+
+    
+    <script>
+        alert("boom boom boom i want you in my room lets spend the night together from now uhntil forever")
+        alert("boom boom boom i want you in my room lets spend the night together from now uhntil forever")
+        alert("boom boom boom i want you in my room lets spend the night together from now uhntil forever")
+        prompt("Are you stoopid?(only stoopid people say no)")
+        prompt("what is missing: n_gger?")
+        console.log("Haha got you bro")
+        document.write("wasuuuuuuuuuuuuuuuuuuuuuuuuuuuuuup")
+        //funckja
+        function write(word) {
+            document.write(word)
+        }
+        write("<h1 class='element-h1'>wassup</h1>")
+        write("<br>")
+        write("<p>World</p>")
+        // let h1Element = document.getElementById("div-id-1");
+        document.getElementById("div-id-1").innerHTML += "<div style='color:blue;'>co chcesz(inner html czy cos)</div>"
+        document.getElementById("div-id-1").style.color = "red";
+        document.getElementById("div-id-1").style.fontSize = "30px";
+
+        // variables
+        let num = 1.45;
+        let str = "stringi";
+        let bool = true;
+        console.log(num);
+        console.log(str);
+        console.log(bool);
+
+        // 
+        let firstNum = 12;
+        let secondNum = 24;
+
+        // firstNum = 1200000 + firstNum;
+        firstNum += 57;
+        console.log(firstNum);
+        firstNum ++;
+        console.log(firstNum);
+        firstNum --;
+        console.log(firstNum);
+
+        document.write("wynik dodawania: ", firstNum + secondNum, "<br>");
+        document.write("wynik reszta z dzielenia: ", firstNum%secondNum, "<br>");
+        document.write("wynik mnożenia: ", firstNum*secondNum, "<br>");
+        document.write("wynik dzielenia: ", firstNum/secondNum, "<br>");
+
+
+
+        function suma(a,b){
+            return a + b;
+        }
+
+        document.write("wynik", suma(1000,2000));
+        
+        
+        function myfunc(){
+            document.getElementById("demo").innerHTML += "got your nose!<br>";
+        }
+
+        document.getElementById("clickit").addEventListener("click",myfunc);
+
+        
+
+
+
+        const button = document.getElementById('clickit');
+        button.addEventListener('mouseover', function () {
+            button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+            button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+        });
+        button.addEventListener('click', function () {
+            alert('you clicked me')
+        });
+        
+
+
+        
+
+    </script>
+</body>
+</html>

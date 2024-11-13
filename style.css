@@ -1,0 +1,111 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #4d64e771;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: darkcyan;
+    color: aquamarine;
+    padding: 20px 0;
+    text-align:center;
+
+}
+
+header h1{
+    margin:0;
+    font: size 36px;
+
+}
+
+nav ul{
+    list-style:armenian;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 69px;
+    font-size: 18px;
+
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor:none ;
+}
+
+/* main content */
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+main p, main ul, main ol{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: aqua;
+}
+
+/* style for images */
+figure{
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img{
+    width: 80%;
+    border-radius: 8px;
+}
+
+figcaption{
+    font-size: italic;
+    color: antiquewhite;
+}
+/* tables */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+table, th, td{
+    border: 1px solid #4d64e771;
+    padding: 8px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: azure;
+}
+
+/* Styles for lists */
+ul, ol{
+    padding-left: 20px;
+}
+
+ul, li, ol li{
+    margin-bottom: 5px;
+}
+
+/* styles for links */
+
+a {
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}

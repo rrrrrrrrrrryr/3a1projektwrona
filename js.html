@@ -75,7 +75,20 @@
 
         document.getElementById("clickit").addEventListener("click",myfunc);
 
-          function dodaj(){
+         
+
+
+
+        const button = document.getElementById('clickit');
+        button.addEventListener('mouseover', function () {
+            button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+            button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+        });
+        button.addEventListener('click', function () {
+            alert('you clicked me')
+        });
+        
+         function dodaj(){
             let liczba1=parseInt(document.getElementById("liczba1").value);
             let liczba2=parseInt(document.getElementById("liczba2").value);
             let wynikSum= liczba1+liczba2;
@@ -90,19 +103,6 @@
             document.getElementById("wynik").innerHTML=wynikSum
         }
         document.getElementById("dodaj").addEventListener("click",dodajEventListiner )
-
-
-
-        const button = document.getElementById('clickit');
-        button.addEventListener('mouseover', function () {
-            button.style.left = `${Math.ceil(Math.random() * 90)}%`;
-            button.style.top = `${Math.ceil(Math.random() * 90)}%`;
-        });
-        button.addEventListener('click', function () {
-            alert('you clicked me')
-        });
-        
-
 
         
 

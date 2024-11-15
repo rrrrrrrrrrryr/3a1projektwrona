@@ -75,7 +75,21 @@
 
         document.getElementById("clickit").addEventListener("click",myfunc);
 
-        
+          function dodaj(){
+            let liczba1=parseInt(document.getElementById("liczba1").value);
+            let liczba2=parseInt(document.getElementById("liczba2").value);
+            let wynikSum= liczba1+liczba2;
+            document.getElementById("wynik").innerHTML=wynikSum
+        }
+ 
+ 
+        function dodajEventListiner(){
+            let liczba1=parseInt(document.getElementById("liczba1").value);
+            let liczba2=parseInt(document.getElementById("liczba2").value);
+            let wynikSum= liczba1+liczba2;
+            document.getElementById("wynik").innerHTML=wynikSum
+        }
+        document.getElementById("dodaj").addEventListener("click",dodajEventListiner )
 
 
 
